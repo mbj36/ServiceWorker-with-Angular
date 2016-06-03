@@ -1,0 +1,112 @@
+<html ng-app="MyApp">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1" />
+    <meta name="description" content="Sophomore | open-source enthusiast | introvert">
+    <meta name="author" content="Mohit kumar Bajoria">
+    <meta name="keywords" content="Mohit bajoria">    
+    <link rel="shortcut icon" href="img/fav.png">
+    
+    <!----open graphs---->
+        
+        <meta property="og:title" content="Mohit Kumar bajoria"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:url" content="https://mohitbajoria.com/"/>
+        <meta property="og:description" content="Sophomore | open-source enthusiast | introvert"/>
+        <meta property="og:image" content="https://pbs.twimg.com/profile_images/654370408225902592/EN_5kUq6.jpg"/>    
+    <!-----twitter cards------>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@mbj36">
+        <meta name="twitter:creator" content="@mbj36">
+        <meta name="twitter:title" content="Mohit Kumar bajoria">
+        <meta name="twitter:description" content="Sophomore | open-source enthusiast | introvert">
+        <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/654370408225902592/EN_5kUq6.jpg">
+    <!----Scripts and css---->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/angular-timeline/dist/angular-timeline.css"></script>   
+    <link rel="stylesheet" href="bower_components/angular-timeline/dist/angular-timeline-bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style/main.css">
+    <title>Mohit | Developer</title>
+    </head>
+    <body>
+        <!-----header---->
+        <div ng-controller="AppCtrl">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <span ng-repeat="items in NavItems">
+                            <p class="btn btn-default btn-block">
+                                <i class="{{items.class}} "></i><a ng-href="{{ items.url }}">  {{ items.text }}  </a>
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!---content---->
+             <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <div class="fb-share-button" data-href="http://www.mohitbajoria.com/" data-layout="button_count"></div> 
+        
+        <div ng-view></div>
+        <!-----footer---->
+        <div>
+            <hr>
+            <span class="author">&#169; 2016
+                <a href="https://github.com/mbj36">Mohit <span hide-sm> Kumar Bajoria</span></a>
+            </span>
+            <span class="footer-center">
+                <i class="fa fa-windows"></i>
+                <i class="fa fa-code"></i>
+                <i class="fa fa-linux"></i>
+            </span>
+            
+            <span id="right" class="text-muted">
+                <a href="https://github.com/mbj36/My-Blog">Source</a>&nbsp;&nbsp;&nbsp;
+                <a href="mailto:mohitbajo36@gmail.com">Contact</a>
+            </span>
+            <hr>
+        </div>
+        
+        
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>    
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>            
+  <script src="bower_components/angular-timeline/dist/angular-timeline.js"></script> 
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+         
+
+  <script src="js/app.js"></script>
+  <script src="js/academics.js"></script> 
+  <script src="js/project.js"></script>
+  <script src="js/about.js"></script> 
+  <script src="js/intro.js"></script> 
+  <script src="js/blog.js"></script>
+        
+  <!------Analytics------->        
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72343023-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+ <!----fb share button------>
+      
+</body>
+</html>

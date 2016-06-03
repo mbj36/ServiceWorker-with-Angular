@@ -1,0 +1,353 @@
+body, html
+{
+    background-color:#FAFAFA;
+}
+.navbar-header
+{
+    color:#fff;
+    padding: 20px;
+    display:flex;
+    position: relative;
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.navbar-default
+{
+   background-color: #4C4C78;
+   height: 80px;
+   border-bottom-color: #fff;
+}
+.btn-default
+{
+    margin-left: 160px;
+}
+.author
+{
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    margin-left: 15%;
+}
+.footer-center
+{
+    margin-left: 20%;
+}
+#right
+{
+    margin-left: 18%;
+}
+a
+{
+    color: #333333;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.content-view
+{
+    background-color: #FAFAFA;
+}
+.timeline-maxwidth
+{
+    max-width: 1000px;
+}
+.project-icon,work-icon{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+#timeline
+{
+    text-align: center;
+}
+.timeline-design
+{
+    line-height:25px;
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.timeline-badge
+{
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.tech
+{
+    display:inline-block;
+    position: relative;
+    left:60px;
+    top: -10px;
+}
+.text-muted
+{
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.link-center
+{
+    position:relative;
+    left: 170px;
+    margin: 10px;
+}
+.toolbar-design
+{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 21%;
+}
+.max-content-width
+{
+    max-width: 700px;
+    position: relative;
+    left: 24%;   
+}
+md-card
+{
+    background-color:#4C4C78 !important;
+}
+#profile-name
+{
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    
+}
+#profile-img {
+     width: 180px;
+     height: 180px;
+     border-radius: 150px;
+     -webkit-border-radius: 150px;
+     -moz-border-radius: 150px;
+}
+#icon-color
+{
+    color: #fff;
+}
+.middle
+{
+    max-width: 700px;
+    position: relative;
+    left: 24.5%;
+    box-shadow:0px 0px 1px 0px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #fff;
+}
+.skills
+{
+    background-color: #4C4C78;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    color: whitesmoke;
+    font-weight:500;
+}
+table
+{
+    position: relative;
+    margin: 10;
+}
+.skill-set
+{
+    word-spacing: 7;
+    padding: 3;
+}
+.about
+{
+    background-color:#fff;
+    box-shadow: 0px 1px 1px 0px;
+    max-width: 400px;
+    position: relative;
+    left: 34.5%;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: cursive;
+}
+.about2
+{
+    background-color:#fff;
+    box-shadow: 0px 0.5px 1px 0px;
+    max-width: 400px;
+    position: relative;
+    left: 35.1%;
+    font-family:'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.twitter-timeline
+{
+    position: relative; 
+    margin-left: 50%;
+    margin-top: -29% !important;
+}
+.about-md
+{
+    max-width: 400px;
+    color:whitesmoke;
+    font-size: 23px;
+    margin-left: 10%;
+   
+}
+.about-md-content
+{
+    background-color:#fff;
+    max-width: 400px;
+    box-shadow: 0px 0.5px 1px 0px; 
+    margin-left: 10%;
+    font-family:Courier, Monaco, monospace;
+    font-size: 16px;
+    padding: 70px;
+}
+.blog-md
+{
+    max-width: 800px;
+    margin-left: 20%;
+    color: #fff;
+    font-size: 30px;
+    padding: 2px;
+}
+.blog-md-card
+{
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 0.5px 1px 0px;
+    margin-left: 20%;
+    padding:30px;
+    font-size:20px;
+    font-family:'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    line-height: 1.5;
+    color: black;
+}
+.date
+{
+ font-size: 15px;    
+ position: absolute;
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: -38px;
+}
+.resume
+{
+ background-color: #dbdbdb;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    font-weight:500;   
+}
+@media screen and (max-width:900px)
+{
+    .navbar-header
+    {
+        display: block;
+    }
+    .navbar-default
+    {
+        height: 50%;
+        padding: 1px;
+    }
+    .btn-default
+    {
+        position:relative;
+        padding: 8px;
+        margin-left: 2;
+        
+    }
+    .timeline-design
+    {
+        position:relative;
+        margin-left: -40px;
+        
+    }
+    .author
+    {
+        position:relative;
+        left: -20px;
+        font-family: cursive;
+    }
+    #right
+    {
+        word-spacing: 2px;
+        line-height: 3;
+        position: relative;
+        left: 26px;
+        font-family: cursive;
+    }
+    .timeline-heading
+    {
+        position: relative;
+        left: -30px;
+    }
+    .tech
+    {
+        position: relative;
+        left: -25px;
+        line-height: 3;
+    }
+    .link-center
+    {
+        position: relative;
+        left: 20;
+    }
+    #text
+    {
+        position: relative;
+        right:16%;
+        
+    }
+    .toolbar-design
+    {
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+    md-card
+{
+    position: relative;
+    margin-left: -20%;
+    margin-right: 27%;
+}
+     md-card-content
+{
+    position: relative;
+    margin-left: -20%;
+    margin-right: 28%;
+}
+    .about-md
+    {
+        width:80%;
+    }
+    .about-md-content
+    {
+        width: 80%;
+        padding: 3%;
+    }
+    .twitter-timeline
+    {
+        margin-left: 0%;
+        margin-top: 10% ! important;
+    }
+    .blog-md
+    {
+        margin-left: 1%;
+        margin-right: 2%;
+        height: 20%;
+        font-size: 20px;
+    }
+    .date
+    {
+        margin-top: -10px;
+    }
+    .blog-md-card
+    {
+        margin-left: 1%;
+        margin-right: 2%;
+        padding: 5px;
+        
+    }
+    #image
+    {
+        height: 250px;
+        width: 250px;
+    }
+    
+    
+    
+    
+}
